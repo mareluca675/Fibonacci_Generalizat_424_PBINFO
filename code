@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a, b, d;
+    long long c;
+    
+    cin >> a >> b >> d;
+
+    while(a <= d)
+    {
+        c = a + b;
+        if(abs(a) <= d)
+        {
+            cout << a << " ";
+        }
+        a = b;
+        b = c;
+    }
+    
+
+    return 0;
+}
